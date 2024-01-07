@@ -86,7 +86,13 @@ export default {
 
 @media screen and (max-width: 768px) {
 	.header-wrapper {
-		padding: calc($gap * 2);
+		padding: calc($gap);
+
+		.header-item {
+			.nav-buttons-wrapper {
+				gap: calc($gap * 1);
+			}
+		}
 	}
 }
 </style>
