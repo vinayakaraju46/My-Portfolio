@@ -1,0 +1,52 @@
+.button {
+	width: 100%;
+	height: 40px;
+	border: none;
+	border-radius: calc($gap / 2);
+	transition: background-color 150ms ease-in-out, border-color 150ms ease-in-out, color 150ms ease-in-out;
+	color: hsl($background-h, $background-s, $background-l - 40%);
+	background-color: hsl($background-h, $background-s, $background-l);
+	font-size: 14px;
+
+	&.is-light,
+	&.is-secondary {
+		background-color: hsl($background-h, 50%, 95%);
+		color: hsl($background-h, 50%, 46%);
+		&:hover {
+			background-color: hsl($background-h, 50%, 91%);
+			color: hsl($background-h, 50%, 40%);
+		}
+	}
+
+	&:hover,
+	&[disabled] {
+		background-color: hsl($background-h, $background-s, $background-l - 4%);
+		color: hsl($background-h, $background-s, $background-l - 44%);
+		cursor: pointer;
+	}
+	&:focus {
+		box-shadow: none !important;
+	}
+
+	&.is-transparent {
+		background-color: transparent !important;
+	}
+}
+.text-field {
+	height: 44px;
+	border: 2px solid hsl($background-h, $background-s, $background-l);
+	border-radius: $gap;
+	padding: $gap calc($gap * 2);
+	color: #333;
+
+	&:focus-visible {
+		outline: none;
+	}
+	&.error-field {
+		border-color: hsl(0, 100%, 70%);
+	}
+}
+
+.is-fit-width {
+	width: fit-content !important;
+}

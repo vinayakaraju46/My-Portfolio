@@ -1,0 +1,52 @@
+// // KDA config
+// base background HSL
+
+:root {
+	--background-h: 135;
+}
+
+$text-h: 0;
+$text-s: 0%;
+$text-l: 20%;
+$background-h: var(--background-h);
+$background-s: 12%;
+$background-l: 95%;
+$primary: hsl($background-h, 22%, 50%);
+$primary-light: hsl($background-h, 96%, 97%);
+$dropdown-item-active-background-color: $primary;
+
+$gap: 0.5rem;
+
+// base colors
+$base-text-color: hsl($text-h, $text-s, $text-l - 40);
+$base-text-color-light: hsl($text-h, $text-s, $text-l - 50);
+
+$base-background-color: hsl($background-h, $background-s, $background-l);
+$base-background-color-light: hsl($background-h, $background-s, $background-l - 5);
+$base-background-color-dark: hsl($background-h, $background-s, $background-l - 2);
+$base-background-color-darker: hsl($background-h, $background-s, $background-l - 4);
+
+// hover colors
+$base-hover-text-color: hsl($text-h, $text-s, $text-l - 60);
+$base-hover-text-color-light: hsl($text-h, $text-s, $text-l - 80);
+$base-hover-background-color: hsl($background-h, $background-s, $background-l - 15);
+$base-hover-background-color-light: hsl($background-h, $background-s, $background-l - 20);
+
+//active colors
+$base-active-text-color: hsl($text-h, $text-s, $text-l - 80);
+$base-active-text-color-light: hsl($text-h, $text-s, $text-l - 100);
+$base-active-background-color: hsl($background-h, $background-s, $background-l - 8);
+$base-active-background-color-light: hsl($background-h, $background-s, $background-l - 12);
+
+// header
+$kda-header-height: 48px;
+$kda-header-height-min: 40px;
+// footer
+$kda-footer-height: calc($kda-header-height / 2);
+$kda-footer-height-min: calc($kda-header-height-min / 2);
+// body
+$kda-body-height: calc(100vh - $kda-header-height);
+$kda-body-height-min: calc(100vh - $kda-header-height-min);
+
+// sidebar
+$kda-sidebar-background: $base-background-color;

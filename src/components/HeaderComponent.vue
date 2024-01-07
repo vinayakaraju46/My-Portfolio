@@ -1,0 +1,92 @@
+<template>
+	<div class="header-wrapper">
+		<div class="header-item logo">
+			<div class="logo-item">
+				<div class="item-title">VinR</div>
+				<div class="item-sub-title">Vinayaka Raju S</div>
+			</div>
+		</div>
+		<div class="header-item nav-links">
+			<div class="nav-buttons-wrapper">
+				<div class="nav-item">
+					<router-link :to="{ name: 'home' }">Home</router-link>
+				</div>
+				<div class="nav-item">
+					<router-link :to="{ name: 'blog' }">Blog</router-link>
+				</div>
+				<div class="nav-item">
+					<router-link :to="{ name: 'about' }">About</router-link>
+				</div>
+				<div class="nav-item">
+					<a :href="'https://github.com/vinayakaraju46'" target="_blank">Github</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</template>
+
+<script>
+export default {
+	data() {
+		return {}
+	}
+}
+</script>
+
+<style lang="scss" scoped>
+.header-wrapper {
+	display: flex;
+	gap: $gap;
+	width: 100%;
+	height: 100px;
+	padding: calc($gap * 6);
+	background-color: hsl(0, 0%, 90%);
+	align-items: center;
+	.header-item {
+		width: calc(100% / 2 - #{$gap});
+		display: flex;
+		align-items: center;
+
+		.logo-item {
+			.item-title {
+				font-size: 2rem;
+				font-weight: 700;
+			}
+			.item-sub-title {
+				font-size: 1rem;
+				font-weight: 400;
+			}
+		}
+		.nav-buttons-wrapper {
+			display: flex;
+			gap: calc($gap * 2);
+			.nav-item {
+				font-size: 1.25rem;
+				font-weight: 600;
+
+				a {
+					text-decoration: none;
+					color: hsl(0, 0%, 20%);
+
+					&:hover {
+						color: hsl(0, 0%, 10%);
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+		&.logo {
+		}
+		&.nav-links {
+			display: flex;
+			justify-content: flex-end;
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.header-wrapper {
+		padding: calc($gap * 2);
+	}
+}
+</style>
