@@ -75,8 +75,6 @@ export default {
 				}
 			}
 		}
-		&.logo {
-		}
 		&.nav-links {
 			display: flex;
 			justify-content: flex-end;
