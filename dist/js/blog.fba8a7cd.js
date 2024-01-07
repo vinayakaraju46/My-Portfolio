@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkvin_r"]=self["webpackChunkvin_r"]||[]).push([[239],{901:function(n,r,e){e.r(r),e.d(r,{default:function(){return f}});var s=e(252);const t={class:"page-wrapper"},i=(0,s._)("div",{class:"title"},"Coming soon ...",-1),a=[i];function c(n,r){return(0,s.wg)(),(0,s.iD)("div",t,a)}var u=e(744);const o={},v=(0,u.Z)(o,[["render",c]]);var f=v}}]);
+//# sourceMappingURL=blog.fba8a7cd.js.map

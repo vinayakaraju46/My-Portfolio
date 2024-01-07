@@ -90,7 +90,7 @@ export default {
 
 		.header-item {
 			.nav-buttons-wrapper {
-				gap: calc($gap * 1);
+				gap: calc($gap);
 			}
 		}
 	}
