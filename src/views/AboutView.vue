@@ -602,7 +602,7 @@ export default {
 				.contents {
 					.content-item {
 						&.name {
-							font-size: calc($gap * 6);
+							font-size: calc($gap * 5);
 							text-align: center;
 						}
 						&.quotation {
@@ -620,6 +620,7 @@ export default {
 								}
 								.media-name {
 									font-size: 1rem;
+									text-align: center;
 								}
 							}
 						}
@@ -666,7 +667,7 @@ export default {
 				.contents {
 					.content-item {
 						&.name {
-							font-size: calc($gap * 6);
+							font-size: calc($gap * 5);
 							text-align: center;
 						}
 						&.quotation {
@@ -684,6 +685,7 @@ export default {
 								}
 								.media-name {
 									font-size: 1rem;
+									text-align: center;
 								}
 							}
 						}
