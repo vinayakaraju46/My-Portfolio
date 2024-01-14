@@ -95,7 +95,7 @@
 								<li>
 									<span class="has-text-weight-semibold project">
 										Project Proposals management system |
-										<div class="tag" @click="previewProject('c3ihub')">Preview</div>
+										<div class="tag is-info is-light" @click="previewProject('c3ihub')">Preview</div>
 									</span>
 								</li>
 								<li>
@@ -115,7 +115,7 @@
 								<li>
 									<span class="has-text-weight-semibold project">
 										Job Hiring platform |
-										<div class="tag" @click="previewProject('c3iCareers')">Preview</div>
+										<div class="tag is-info is-light" @click="previewProject('c3iCareers')">Preview</div>
 									</span>
 								</li>
 								<li>
@@ -135,7 +135,7 @@
 								<li>
 									<span class="has-text-weight-semibold project">
 										ROS Labs |
-										<div class="tag" @click="previewProject('ros')">Preview</div>
+										<div class="tag is-info is-light" @click="previewProject('ros')">Preview</div>
 									</span>
 								</li>
 								<li>
