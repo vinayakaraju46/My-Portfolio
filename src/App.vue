@@ -26,10 +26,6 @@ export default {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-html {
-	// background-color: hsl($background-h, $background-s, 95%);
-}
-
 html,
 body {
 	height: 100%;

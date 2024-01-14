@@ -15,9 +15,6 @@
 					<router-link :to="{ name: 'blog' }">Blog</router-link>
 				</div>
 				<div class="nav-item">
-					<router-link :to="{ name: 'about' }">About</router-link>
-				</div>
-				<div class="nav-item">
 					<a :href="'https://github.com/vinayakaraju46'" target="_blank">Github</a>
 				</div>
 			</div>

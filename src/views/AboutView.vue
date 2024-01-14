@@ -84,42 +84,131 @@
 				</div>
 			</div>
 			<div class="content-item">
+				<div class="content-title">Projects</div>
+				<div class="content-body">
+					<div class="content-item">
+						<!-- <div class="info-title">
+							<a href="https://www.finastra.com/" target="_blank"> Finastra</a>
+						</div> -->
+						<div class="info-body">
+							<ul>
+								<li>
+									<span class="has-text-weight-semibold project">
+										Project Proposals management system |
+										<div class="tag" @click="previewProject('c3ihub')">Preview</div>
+									</span>
+								</li>
+								<li>
+									Developed a web application for managing project proposals. The frontend of this application is built
+									using VueJs, backend with NodeJs and the database with mongoDB. Application supports role based access
+									control.
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="content-item">
+						<!-- <div class="info-title">
+							<a href="https://www.finastra.com/" target="_blank"> Finastra</a>
+						</div> -->
+						<div class="info-body">
+							<ul>
+								<li>
+									<span class="has-text-weight-semibold project">
+										Job Hiring platform |
+										<div class="tag" @click="previewProject('c3iCareers')">Preview</div>
+									</span>
+								</li>
+								<li>
+									Developed a web application for managing job hiring. The frontend of this application is built using
+									VueJs, backend with NodeJs and the database with mongoDB. Application supports role based access
+									control.
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="content-item">
+						<!-- <div class="info-title">
+							<a href="https://www.finastra.com/" target="_blank"> Finastra</a>
+						</div> -->
+						<div class="info-body">
+							<ul>
+								<li>
+									<span class="has-text-weight-semibold project">
+										ROS Labs |
+										<div class="tag" @click="previewProject('ros')">Preview</div>
+									</span>
+								</li>
+								<li>
+									Cloud based solution to practice ROS on a browser. The frontend of this application is built using
+									VueJs, backend with NodeJs and the database with mongoDB.
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="content-item">
+						<!-- <div class="info-title">
+							<a href="https://www.finastra.com/" target="_blank"> Finastra</a>
+						</div> -->
+						<div class="info-body">
+							<ul>
+								<li>
+									<span class="has-text-weight-semibold project">
+										Internet of things |
+										<a href="https://github.com/ClyckIOT/clyckIOT" target="_blank">Link</a>
+									</span>
+								</li>
+								<li>
+									A web application that is capable of controlling a microcontroller through an API call. The frontend
+									of this application is built using VueJs, backend with NodeJs and the database with mongoDB. APIs are
+									protected using google firebase
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="content-item">
+						<!-- <div class="info-title">
+							<a href="https://www.finastra.com/" target="_blank"> Finastra</a>
+						</div> -->
+						<div class="info-body">
+							<ul>
+								<li>
+									<span class="has-text-weight-semibold project"> Autonomous rc car </span> |
+									<a href="https://arxiv.org/abs/2212.07155" target="_blank">Link</a>
+								</li>
+								<li>
+									Navigation of scaled version of a car using LIDAR as the sensor. The Nvidia Jetson nano was used as an
+									onboard computer. I was able to gain knowledge on ROS[robot operating system], Motion and path
+									planning
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="content-item">
+						<!-- <div class="info-title">
+							<a href="https://www.finastra.com/" target="_blank"> Finastra</a>
+						</div> -->
+						<div class="info-body">
+							<ul>
+								<li>
+									<span class="has-text-weight-semibold project"> EYRC-2018 </span> |
+									<a href="https://clyckiotbuild.s3.ap-south-1.amazonaws.com/ERTS-2018.pdf" target="_blank">Link</a>
+								</li>
+								<li>
+									A national level robotics competition conducted by IIT Bombay. The task was to build an autonomous
+									drone that can navigate through the given waypoints. I learnt the concepts of control systems like PID
+									controllers and mechanics of quadcopter
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-item">
 				<div class="content-title">Work Experience</div>
 				<div class="content-body">
 					<div class="content-item">
 						<div class="info-title">
-							<a href="https://www.finastra.com/" target="_blank"> Finastra</a>
-						</div>
-						<div class="info-body">
-							<ul>
-								<li>
-									<span class="has-text-weight-semibold designation"> Associate Software Engineer </span> (Jan 2020 -
-									April 2022)
-								</li>
-								<li>
-									Worked on a project called UI builder where a form can be created just by drag and drop of input
-									components and can be rendered using JSON. This project will be used across the organization and also
-									by the customer to create a web form without any knowledge of coding
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="content-item">
-						<div class="info-title">
-							<a href="https://trigent.com/" target="_blank"> Trigent Software Solutions</a>
-						</div>
-						<div class="info-body">
-							<ul>
-								<li>
-									<span class="has-text-weight-semibold designation"> Software Engineer </span> (April 2022 - Nov 2022)
-								</li>
-								<li>Frontend Engineer using VueJs</li>
-							</ul>
-						</div>
-					</div>
-					<div class="content-item">
-						<div class="info-title">
-							<a href="https://c3ihub.org/" target="_blank"> C3iHub, IITK</a>
+							<a href="https://c3ihub.org/" target="_blank"> C3iHub | Indian Institute Of Technology, Kanpur</a>
 						</div>
 						<div class="info-body">
 							<ul>
@@ -140,10 +229,41 @@
 							</ul>
 						</div>
 					</div>
+					<div class="content-item">
+						<div class="info-title">
+							<a href="https://trigent.com/" target="_blank"> Trigent Software Solutions</a>
+						</div>
+						<div class="info-body">
+							<ul>
+								<li>
+									<span class="has-text-weight-semibold designation"> Software Engineer </span> (April 2022 - Nov 2022)
+								</li>
+								<li>Worked as a frontend engineer on a resource management tool</li>
+							</ul>
+						</div>
+					</div>
+					<div class="content-item">
+						<div class="info-title">
+							<a href="https://www.finastra.com/" target="_blank"> Finastra</a>
+						</div>
+						<div class="info-body">
+							<ul>
+								<li>
+									<span class="has-text-weight-semibold designation"> Associate Software Engineer </span> (Jan 2020 -
+									April 2022)
+								</li>
+								<li>
+									Worked on a project called UI builder where a form can be created just by drag and drop of input
+									components and can be rendered using JSON. This project will be used across the organization and also
+									by the customer to create a web form without any knowledge of coding
+								</li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="content-item">
-				<div class="content-title">Projects</div>
+				<div class="content-title">Interests</div>
 				<div class="content-body">
 					<div class="content-item">
 						<!-- <div class="info-title">
@@ -152,48 +272,7 @@
 						<div class="info-body">
 							<ul>
 								<li>
-									<span class="has-text-weight-semibold project">
-										<a href="https://github.com/ClyckIOT/clyckIOT" target="_blank">Internet of things</a>
-									</span>
-								</li>
-								<li>
-									A web application that is capable of controlling a microcontroller through an API call. The frontend
-									of this application is built using VueJs, backend with NodeJs and the database with mongoDB. APIs are
-									protected using google firebase
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="content-item">
-						<!-- <div class="info-title">
-							<a href="https://www.finastra.com/" target="_blank"> Finastra</a>
-						</div> -->
-						<div class="info-body">
-							<ul>
-								<li>
-									<span class="has-text-weight-semibold project"> Autonomous rc car </span>
-								</li>
-								<li>
-									Navigation of scaled version of a car using LIDAR as the sensor. The Nvidia Jetson nano was used as an
-									onboard computer. I was able to gain knowledge on ROS[robot operating system], Motion and path
-									planning
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="content-item">
-						<!-- <div class="info-title">
-							<a href="https://www.finastra.com/" target="_blank"> Finastra</a>
-						</div> -->
-						<div class="info-body">
-							<ul>
-								<li>
-									<span class="has-text-weight-semibold project"> EYRC-2018 </span>
-								</li>
-								<li>
-									A national level robotics competition conducted by IIT Bombay. The task was to build an autonomous
-									drone that can navigate through the given waypoints. I learnt the concepts of control systems like PID
-									controllers and mechanics of quadcopter
+									<span class="has-text-weight-semibold project"> Books | Trekking | Boxing | Running | Cooking</span>
 								</li>
 							</ul>
 						</div>
@@ -202,7 +281,161 @@
 			</div>
 		</div>
 	</div>
+	<div class="modal-component" v-if="modalConfig.isOpen" @click="modalConfig.isOpen = false">
+		<div class="close-modal">
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				height="30"
+				width="30"
+				viewBox="0 0 512 512"
+				@click="modalConfig.isOpen = false"
+			>
+				<path
+					d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z"
+				/>
+			</svg>
+		</div>
+		<carousel class="carousal" :items-to-show="1">
+			<slide v-for="(item, index) in modalConfig.items" :key="index">
+				<div class="image">
+					<img :src="require(`../../public/Images/${item.path}`)" :alt="item.title" />
+				</div>
+			</slide>
+
+			<template #addons>
+				<navigation />
+				<pagination />
+			</template>
+		</carousel>
+	</div>
 </template>
+<script>
+import "vue3-carousel/dist/carousel.css"
+import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel"
+
+export default {
+	components: {
+		Carousel,
+		Slide,
+		Pagination,
+		Navigation
+	},
+	data() {
+		return {
+			name: "Vinayaka Raju S",
+			quotation: "“Waste no more time arguing what a good man should be. Be One.”",
+			socialMedia: [
+				{
+					mediaType: "LinkedIn",
+					link: ""
+				},
+				{
+					mediaType: "Google Scholar",
+					link: ""
+				},
+				{
+					mediaType: "Github",
+					link: ""
+				},
+				{
+					mediaType: "Instagram",
+					link: ""
+				}
+			],
+			educationInfo: [
+				{
+					name: "",
+					specialization: "",
+					duration: ""
+				},
+				{
+					name: "",
+					specialization: "",
+					duration: ""
+				}
+			],
+			workExperience: [
+				{
+					instituteName: "",
+					designation: "",
+					duration: "",
+					description: ""
+				}
+			],
+			modalConfig: {
+				isOpen: false,
+				items: []
+			},
+			ros: [
+				{
+					title: "Playground",
+					path: "ros/ros1.png"
+				},
+				{
+					title: "VSCODE",
+					path: "ros/ros2.png"
+				},
+				{
+					title: "TurtleSim",
+					path: "ros/ros3.png"
+				}
+			],
+			c3ihub: [
+				{
+					title: "Admin Dashboard",
+					path: "c3i-main/admin_dashboard.png"
+				},
+				{
+					title: "Admin Review",
+					path: "c3i-main/admin_review.png"
+				},
+				{
+					title: "Proposal Form",
+					path: "c3i-main/proposal_form1.png"
+				},
+				{
+					title: "Proposal Form",
+					path: "c3i-main/proposal_form2.png"
+				},
+				{
+					title: "Proposal Form",
+					path: "c3i-main/proposal_form3.png"
+				}
+			],
+			c3iCareers: [
+				{
+					title: "Login Screen",
+					path: "c3iCareers/loginScreen.png"
+				},
+				{
+					title: "Admin Job",
+					path: "c3iCareers/customJob.png"
+				},
+				{
+					title: "Admin View",
+					path: "c3iCareers/jobAdminView.png"
+				},
+				{
+					title: "Job Form",
+					path: "c3iCareers/jobDescription.png"
+				}
+			]
+		}
+	},
+	methods: {
+		previewProject(type) {
+			this.modalConfig.isOpen = true
+			this.modalConfig.items = this[type]
+			console.log(this.modalConfig, "Modal config")
+		},
+		getImagePath(src) {
+			let href = this.$config.public?.fileServer
+			let url = href + this.baseImageUrl + src
+			return `url(${url})`
+		}
+	}
+}
+</script>
 
 <style lang="scss" scoped>
 .page-wrapper {
@@ -297,7 +530,7 @@
 					}
 				}
 				.info-body {
-					padding: calc($gap/2);
+					padding-left: calc($gap);
 
 					.designation {
 						color: hsl(0, 0%, 50%);
@@ -306,6 +539,46 @@
 						color: hsl(0, 0%, 30%);
 					}
 				}
+			}
+		}
+	}
+}
+
+.modal-component {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgb(0 0 0 / 85%);
+	z-index: 999;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.close-modal {
+		position: absolute;
+		top: 0;
+		right: 0;
+		padding: $gap;
+		&:hover {
+			cursor: pointer;
+		}
+		.icon {
+			color: whitesmoke;
+		}
+	}
+
+	.carousal {
+		display: flex;
+		flex-direction: column;
+
+		.image {
+			padding: calc($gap * 10);
+			img {
+				object-fit: contain;
+				width: 100%;
+				height: 575px;
 			}
 		}
 	}
