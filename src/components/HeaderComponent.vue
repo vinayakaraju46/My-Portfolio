@@ -2,7 +2,7 @@
 	<div class="header-wrapper">
 		<div class="header-item logo">
 			<div class="logo-item">
-				<div class="item-title">VinR</div>
+				<div class="item-title">Portfolio</div>
 				<div class="item-sub-title">Vinayaka Raju S</div>
 			</div>
 		</div>

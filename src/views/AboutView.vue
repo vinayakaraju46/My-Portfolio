@@ -369,15 +369,15 @@ export default {
 			ros: [
 				{
 					title: "Playground",
-					path: "ros/ros1.png"
+					path: "ros/roslabs1.png"
 				},
 				{
 					title: "VSCODE",
-					path: "ros/ros2.png"
+					path: "ros/roslabs2.png"
 				},
 				{
 					title: "TurtleSim",
-					path: "ros/ros3.png"
+					path: "ros/roslabs3.png"
 				}
 			],
 			c3ihub: [
