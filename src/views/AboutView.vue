@@ -106,7 +106,7 @@
 									<li>NodeJs, Express, MongoDB, Python, C++</li>
 									<li>Experience in building RESTful APIs</li>
 									<li>Building Microservices that uses gRPC protocol</li>
-									<li>Docker, AWS</li>
+									<li>AWS S3 Bucket, AWS lambda function, AWS ec2 and Docker</li>
 								</ul>
 							</div>
 						</div>
