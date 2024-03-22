@@ -56,29 +56,59 @@
 			</div>
 		</div>
 		<div class="page-footer">
-			<div class="content-item">
-				<div class="content-title">Education</div>
-				<div class="content-body">
-					<div class="content-item">
-						<div class="info-title">
-							<a href="https://www.sjpuc.in/" target="_blank"> St. Josephs' Pre-University College</a>
+			<div class="content-item is-flex">
+				<div class="cols">
+					<div class="content-title">Education</div>
+					<div class="content-body">
+						<div class="content-item">
+							<div class="info-title">
+								<a href="https://www.sjpuc.in/" target="_blank"> St. Josephs' Pre-University College</a>
+							</div>
+							<div class="info-body">
+								<ul>
+									<li>Physics, Chemistry, Mathematics and Electronics</li>
+									<li>2014 - 2016</li>
+								</ul>
+							</div>
 						</div>
-						<div class="info-body">
-							<ul>
-								<li>Physics, Chemistry, Mathematics and Electronics</li>
-								<li>2014 - 2016</li>
-							</ul>
+						<div class="content-item">
+							<div class="info-title">
+								<a href="https://www.bmsce.ac.in/" target="_blank"> B.M.S College of Engineering</a>
+							</div>
+							<div class="info-body">
+								<ul>
+									<li>Bachelor of Telecommunication Engineering</li>
+									<li>2016 - 2020</li>
+								</ul>
+							</div>
 						</div>
 					</div>
-					<div class="content-item">
-						<div class="info-title">
-							<a href="https://www.bmsce.ac.in/" target="_blank"> B.M.S College of Engineering</a>
+				</div>
+				<div class="cols">
+					<div class="content-title">Skills</div>
+					<div class="content-body">
+						<div class="content-item">
+							<div class="info-title">
+								<p>Front End</p>
+							</div>
+							<div class="info-body">
+								<ul>
+									<li>HTML, CSS, Javascript, VueJs, VueX, XtermJs, ReactJs, Redux, React Native</li>
+								</ul>
+							</div>
 						</div>
-						<div class="info-body">
-							<ul>
-								<li>Bachelor of Telecommunication Engineering</li>
-								<li>2016 - 2020</li>
-							</ul>
+						<div class="content-item">
+							<div class="info-title">
+								<p>Back End</p>
+							</div>
+							<div class="info-body">
+								<ul>
+									<li>NodeJs, Express, MongoDB, Python, C++</li>
+									<li>Experience in building RESTful APIs</li>
+									<li>Building Microservices that uses gRPC protocol</li>
+									<li>Docker, AWS</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -99,9 +129,12 @@
 									</span>
 								</li>
 								<li>
-									Developed a web application for managing project proposals. The frontend of this application is built
-									using VueJs, backend with NodeJs and the database with mongoDB. Application supports role based access
-									control.
+									I created a web app to manage project proposals. It uses Vue.js for the frontend, Node.js for the
+									backend, and MongoDB for the database. The app includes role-based access control. Applicants submit
+									their applications by filling out a form and uploading PDF files. I created APIs to validate the form,
+									upload the PDFs to an AWS S3 bucket, and store the proposal information in MongoDB. Reviewers can log
+									in to view the list of applications assigned for review and provide their feedback. As an admin, the
+									application automatically assigns applications to reviewers and sends automated emails to applicants
 								</li>
 							</ul>
 						</div>
@@ -119,9 +152,8 @@
 									</span>
 								</li>
 								<li>
-									Developed a web application for managing job hiring. The frontend of this application is built using
-									VueJs, backend with NodeJs and the database with mongoDB. Application supports role based access
-									control.
+									I built a web app for job hiring management. It uses Vue.js for the frontend, Node.js for the backend,
+									and MongoDB for the database. The app includes role-based access control.
 								</li>
 							</ul>
 						</div>
@@ -139,8 +171,8 @@
 									</span>
 								</li>
 								<li>
-									Cloud based solution to practice ROS on a browser. The frontend of this application is built using
-									VueJs, backend with NodeJs and the database with mongoDB.
+									I'm working on a cloud-based solution to practice ROS directly in a web browser. The frontend uses
+									Vue.js, while the backend is built with Node.js, and the database is MongoDB.
 								</li>
 							</ul>
 						</div>
@@ -176,9 +208,9 @@
 									<a href="https://arxiv.org/abs/2212.07155" target="_blank">Link</a>
 								</li>
 								<li>
-									Navigation of scaled version of a car using LIDAR as the sensor. The Nvidia Jetson nano was used as an
-									onboard computer. I was able to gain knowledge on ROS[robot operating system], Motion and path
-									planning
+									I implemented navigation for a scaled car using LIDAR as the sensor, with the Nvidia Jetson Nano
+									serving as the onboard computer. This project gave me valuable experience in ROS (Robot Operating
+									System), as well as motion and path planning.
 								</li>
 							</ul>
 						</div>
@@ -502,6 +534,11 @@ export default {
 							}
 						}
 					}
+
+					.cols {
+						display: flex;
+						gap: $gap;
+					}
 				}
 			}
 		}
@@ -630,6 +667,9 @@ export default {
 		}
 		.page-footer {
 			.content-item {
+				&.is-flex {
+					flex-direction: column;
+				}
 				.content-title {
 					font-size: 1rem;
 				}
