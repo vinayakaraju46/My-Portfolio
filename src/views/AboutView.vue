@@ -11,7 +11,7 @@
 				</div>
 				<div class="contents">
 					<div class="content-item name">Vinayaka Raju S</div>
-					<div class="content-item quotation">“Waste no more time arguing what a good man should be. Be One.”</div>
+					<div class="content-item quotation">"The worst thing about prison was the Dementors.”</div>
 					<div class="content-item social-media">
 						<div class="media-item">
 							<div class="media-icon">
@@ -109,6 +109,65 @@
 									<li>AWS S3 Bucket, AWS lambda function, AWS ec2 and Docker</li>
 								</ul>
 							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-item">
+				<div class="content-title">Work Experience</div>
+				<div class="content-body">
+					<div class="content-item">
+						<div class="info-title">
+							<a href="https://c3ihub.org/" target="_blank"> C3iHub | Indian Institute Of Technology, Kanpur</a>
+						</div>
+						<div class="info-body">
+							<ul>
+								<li>
+									<span class="has-text-weight-semibold designation"> Project Engineer </span> (Nov 2023 - Current)
+								</li>
+								<li>
+									I work as a full-stack engineer. My responsibilities included developing the frontend for the
+									<span>
+										<a href="https://kda-dev.c3ihub.org/login" target="_blank">Kanpur Development Authority</a>.</span
+									>
+									Additionally, I contributed to the backend of the
+									<span>
+										<a href="https://c3ihub.org/careers" target="_blank">C3ihub Careers</a> platform, focusing on user
+										management with diverse roles and privileges.
+									</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="content-item">
+						<div class="info-title">
+							<a href="https://trigent.com/" target="_blank"> Trigent Software Solutions</a>
+						</div>
+						<div class="info-body">
+							<ul>
+								<li>
+									<span class="has-text-weight-semibold designation"> Software Engineer </span> (April 2022 - Nov 2022)
+								</li>
+								<li>Worked as a frontend engineer on a resource management tool</li>
+							</ul>
+						</div>
+					</div>
+					<div class="content-item">
+						<div class="info-title">
+							<a href="https://www.finastra.com/" target="_blank"> Finastra</a>
+						</div>
+						<div class="info-body">
+							<ul>
+								<li>
+									<span class="has-text-weight-semibold designation"> Associate Software Engineer </span> (Jan 2020 -
+									April 2022)
+								</li>
+								<li>
+									I worked on a project called UI Builder, where I developed a form creation system using
+									drag-and-drop input components and JSON rendering. This project is intended for use across the
+									organization and by customers to create web forms without requiring any coding knowledge.
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -236,64 +295,72 @@
 				</div>
 			</div>
 			<div class="content-item">
-				<div class="content-title">Work Experience</div>
+				<div class="content-title">Publications</div>
 				<div class="content-body">
 					<div class="content-item">
-						<div class="info-title">
-							<a href="https://c3ihub.org/" target="_blank"> C3iHub | Indian Institute Of Technology, Kanpur</a>
-						</div>
+						<!-- <div class="info-title">
+							<a href="https://www.finastra.com/" target="_blank"> Finastra</a>
+						</div> -->
 						<div class="info-body">
 							<ul>
 								<li>
-									<span class="has-text-weight-semibold designation"> Project Engineer </span> (Nov 2023 - Current)
-								</li>
-								<li>
-									Working as a fullstack engineer. I was responsible for developing the frontend of
-									<span>
-										<a href="https://kda-dev.c3ihub.org/login" target="_blank">Kanpur Development Authority</a>.</span
-									>
-									I've also worked on the backend of
-									<span>
-										<a href="https://c3ihub.org/careers" target="_blank">C3ihub Careers</a> functionality, which
-										includes user management with various roles and privileges.
+									<span class="has-text-weight-semibold project">
+										Simulation of Self‐Driving Cars Using Deep Learning |
+										<a
+											href="https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119821908.ch16"
+											target="_blank"
+											>Link</a
+										>
 									</span>
 								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="content-item">
-						<div class="info-title">
-							<a href="https://trigent.com/" target="_blank"> Trigent Software Solutions</a>
-						</div>
-						<div class="info-body">
-							<ul>
 								<li>
-									<span class="has-text-weight-semibold designation"> Software Engineer </span> (April 2022 - Nov 2022)
+									Self‐driving cars have been a popular area of research for a few decades now. However, the prevalent
+									methods have proven inflexible and hard to scale in more complex environments. For example, in
+									developing countries, the roads are more chaotic and unstructured as compared to developed countries.
+									Hence, the rule‐based self‐driving methodologies currently being used in developed countries cannot be
+									applied to the roads in developing countries. Therefore, in this paper, a methodology of implementing
+									self‐driving is discussed which we propose that it will be better suited to more unstructured and
+									chaotic environments.
 								</li>
-								<li>Worked as a frontend engineer on a resource management tool</li>
 							</ul>
 						</div>
 					</div>
 					<div class="content-item">
-						<div class="info-title">
+						<!-- <div class="info-title">
 							<a href="https://www.finastra.com/" target="_blank"> Finastra</a>
-						</div>
+						</div> -->
 						<div class="info-body">
 							<ul>
 								<li>
-									<span class="has-text-weight-semibold designation"> Associate Software Engineer </span> (Jan 2020 -
-									April 2022)
+									<span class="has-text-weight-semibold project">
+										Autonomous Vehicle Navigation with LIDAR using Path Planning |
+										<a href="https://arxiv.org/abs/2212.07155" target="_blank">Link</a>
+									</span>
 								</li>
 								<li>
-									Worked on a project called UI builder where a form can be created just by drag and drop of input
-									components and can be rendered using JSON. This project will be used across the organization and also
-									by the customer to create a web form without any knowledge of coding
+									In this paper, a complete framework for Autonomous Self Driving is implemented. LIDAR, Camera and IMU
+									sensors are used together. The entire data communication is managed using Robot Operating System which
+									provides a robust platform for implementation of Robotics Projects. Jetson Nano is used to provide
+									powerful on-board processing capabilities. Sensor fusion is performed on the data received from the
+									different sensors to improve the accuracy of the decision making and inferences that we derive from
+									the data. This data is then used to create a localized map of the environment. In this step, the
+									position of the vehicle is obtained with respect to the Mapping done using the sensor data.The
+									different SLAM techniques used for this purpose are Hector Mapping and GMapping which are widely used
+									mapping techniques in ROS. Apart from SLAM that primarily uses LIDAR data, Visual Odometry is
+									implemented using a Monocular Camera. The sensor fused data is then used by Adaptive Monte Carlo
+									Localization for car localization. Using the localized map developed, Path Planning techniques like
+									"TEB planner" and "Dynamic Window Approach" are implemented for autonomous navigation of the vehicle.
+									The last step in the Project is the implantation of Control which is the final decision making block
+									in the pipeline that gives speed and steering data for the navigation that is compatible with
+									Ackermann Kinematics. The implementation of such a control block under a ROS framework using the three
+									sensors, viz, LIDAR, Camera and IMU is a novel approach that is undertaken in this project.
 								</li>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
+
 			<div class="content-item">
 				<div class="content-title">Interests</div>
 				<div class="content-body">
