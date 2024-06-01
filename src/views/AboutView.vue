@@ -89,7 +89,7 @@
 					<div class="content-body">
 						<div class="content-item">
 							<div class="info-title">
-								<p>Front End</p>
+								<p>Frontend</p>
 							</div>
 							<div class="info-body">
 								<ul>
@@ -99,7 +99,7 @@
 						</div>
 						<div class="content-item">
 							<div class="info-title">
-								<p>Back End</p>
+								<p>Backend</p>
 							</div>
 							<div class="info-body">
 								<ul>
@@ -163,9 +163,9 @@
 									April 2022)
 								</li>
 								<li>
-									I worked on a project called UI Builder, where I developed a form creation system using
-									drag-and-drop input components and JSON rendering. This project is intended for use across the
-									organization and by customers to create web forms without requiring any coding knowledge.
+									I worked on a project called UI Builder, where I developed a form creation system using drag-and-drop
+									input components and JSON rendering. This project is intended for use across the organization and by
+									customers to create web forms without requiring any coding knowledge.
 								</li>
 							</ul>
 						</div>
@@ -306,9 +306,7 @@
 								<li>
 									<span class="has-text-weight-semibold project">
 										Simulation of Self‐Driving Cars Using Deep Learning |
-										<a
-											href="https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119821908.ch16"
-											target="_blank"
+										<a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119821908.ch16" target="_blank"
 											>Link</a
 										>
 									</span>
@@ -360,20 +358,27 @@
 					</div>
 				</div>
 			</div>
-
 			<div class="content-item">
 				<div class="content-title">Interests</div>
 				<div class="content-body">
 					<div class="content-item">
-						<!-- <div class="info-title">
-							<a href="https://www.finastra.com/" target="_blank"> Finastra</a>
-						</div> -->
 						<div class="info-body">
 							<ul>
 								<li>
 									<span class="has-text-weight-semibold project"> Books | Trekking | Boxing | Running | Cooking</span>
 								</li>
 							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-item">
+				<!-- Image gallery -->
+				<div class="gallery-section">
+					<div class="content-title">Gallery</div>
+					<div class="gallery">
+						<div class="gallery-item" v-for="(image, index) in galleryImages" :key="index">
+							<img :src="image.src" :alt="image.alt" />
 						</div>
 					</div>
 				</div>
@@ -518,6 +523,22 @@ export default {
 					title: "Job Form",
 					path: "c3iCareers/jobDescription.png"
 				}
+			],
+			galleryImages: [
+				{ src: require("../../public/Images/ros-con.jpg"), alt: "Gallery Image 1" },
+				{ src: require("../../public/Images/rahul-home.jpg"), alt: "Gallery Image 2" },
+				{ src: require("../../public/Images/navigationStack.jpg"), alt: "Gallery Image 3" },
+				{ src: require("../../public/Images/cocon.jpg"), alt: "Gallery Image 4" },
+				{ src: require("../../public/Images/telangana.jpg"), alt: "Gallery Image 4" },
+				{ src: require("../../public/Images/1.jpeg"), alt: "Gallery Image 4" },
+				{ src: require("../../public/Images/2.jpeg"), alt: "Gallery Image 4" },
+				{ src: require("../../public/Images/3.jpeg"), alt: "Gallery Image 4" },
+				{ src: require("../../public/Images/4.jpeg"), alt: "Gallery Image 4" },
+				{ src: require("../../public/Images/5.jpeg"), alt: "Gallery Image 4" },
+				{ src: require("../../public/Images/6.jpeg"), alt: "Gallery Image 4" },
+				{ src: require("../../public/Images/7.jpeg"), alt: "Gallery Image 4" },
+				{ src: require("../../public/Images/8.jpeg"), alt: "Gallery Image 4" },
+				{ src: require("../../public/Images/9.jpeg"), alt: "Gallery Image 4" },
 			]
 		}
 	},
@@ -642,6 +663,29 @@ export default {
 					.project {
 						color: hsl(0, 0%, 30%);
 					}
+				}
+			}
+		}
+	}
+
+	.gallery-section {
+		.content-title {
+			font-size: 1.5rem;
+			font-weight: bold;
+			margin-bottom: 1rem;
+		}
+		.gallery {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 1rem;
+			.gallery-item {
+				flex: 1 1 calc(25% - 1rem); // Adjust for number of columns
+				img {
+					width: 100%;
+					height: auto;
+					display: block;
+					border-radius: 0.5rem;
+					box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 				}
 			}
 		}
