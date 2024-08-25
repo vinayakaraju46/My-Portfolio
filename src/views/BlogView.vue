@@ -71,11 +71,12 @@ export default {
 	gap: $gap;
 	width: 100%;
 	padding: calc($gap * 6);
-	background-color: hsl(0, 0%, 90%);
+	background-color: hsl(0, 0%, 10%);
 	align-items: center;
 	.title {
 		font-size: 2rem;
 		font-weight: 700;
+		color:hsl(0, 0%, 90%)
 	}
 	.posts-wrapper {
 		display: flex;
@@ -87,8 +88,9 @@ export default {
 			flex-direction: column;
 			gap: calc($gap * 2);
 			padding: calc($gap * 2);
-			background-color: hsl(0, 0%, 100%);
+			background-color: hsl(0, 0%, 15%);
 			border-radius: 4px;
+			border: 1px solid hsl(0, 0%, 40%);
 			.post-title {
 				font-size: 1.5rem;
 				font-weight: 700;
@@ -103,6 +105,7 @@ export default {
 			.post-description {
 				font-size: 1rem;
 				font-weight: 400;
+				color: hsl(0, 0%, 60%);
 			}
 		}
 	}
