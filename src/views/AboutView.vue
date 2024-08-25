@@ -800,10 +800,10 @@ export default {
 					.info-body {
 						padding: calc($gap/2);
 						.designation {
-							color: hsl(0, 0%, 50%);
+							color: hsl(0, 0%, 80%);
 						}
 						.project {
-							color: hsl(0, 0%, 30%);
+							color: hsl(0, 0%, 80%);
 						}
 					}
 				}
@@ -865,10 +865,10 @@ export default {
 					.info-body {
 						padding: calc($gap/2);
 						.designation {
-							color: hsl(0, 0%, 50%);
+							color: hsl(0, 0%, 80%);
 						}
 						.project {
-							color: hsl(0, 0%, 30%);
+							color: hsl(0, 0%, 80%);
 						}
 					}
 				}

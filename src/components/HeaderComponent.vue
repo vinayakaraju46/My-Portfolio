@@ -2,8 +2,9 @@
 	<div class="header-wrapper">
 		<div class="header-item logo">
 			<div class="logo-item">
-				<div class="item-title">Portfolio</div>
-				<div class="item-sub-title">Vinayaka Raju S</div>
+				<!-- <div class="item-title">Vinayaka Raju S</div> -->
+				<!-- <div class="item-sub-title"></div> -->
+				<img :src="require('../../public/Images/code-terminal.png')" alt="linkedin" height="80px" width="80px"/>
 			</div>
 		</div>
 		<div class="header-item nav-links">
@@ -48,12 +49,12 @@ export default {
 			.item-title {
 				font-size: 2rem;
 				font-weight: 700;
-				color: hsl(0, 0%, 80%)
+				color: hsl(0, 0%, 80%);
 			}
 			.item-sub-title {
 				font-size: 1rem;
 				font-weight: 400;
-				color: hsl(0, 0%, 80%)
+				color: hsl(0, 0%, 80%);
 			}
 		}
 		.nav-buttons-wrapper {
