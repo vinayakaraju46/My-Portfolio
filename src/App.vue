@@ -30,11 +30,13 @@ html,
 body {
 	height: 100%;
 	font-size: 16px;
+	background: hsl(0, 0%, 10%);
 }
 
 .body-item {
 	padding: calc($gap * 3);
 	margin: 0 calc($gap * 30) 0;
+	background: hsl(0, 0%, 10%);
 }
 
 @media (max-width: 768px) {

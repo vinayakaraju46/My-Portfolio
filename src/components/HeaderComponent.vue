@@ -37,7 +37,7 @@ export default {
 	width: 100%;
 	height: 100px;
 	padding: calc($gap * 6);
-	background-color: hsl(0, 0%, 90%);
+	background-color: hsl(0, 0%, 10%);
 	align-items: center;
 	.header-item {
 		width: calc(100% / 2 - #{$gap});
@@ -48,10 +48,12 @@ export default {
 			.item-title {
 				font-size: 2rem;
 				font-weight: 700;
+				color: hsl(0, 0%, 80%)
 			}
 			.item-sub-title {
 				font-size: 1rem;
 				font-weight: 400;
+				color: hsl(0, 0%, 80%)
 			}
 		}
 		.nav-buttons-wrapper {
@@ -63,10 +65,10 @@ export default {
 
 				a {
 					text-decoration: none;
-					color: hsl(0, 0%, 20%);
+					color: hsl(0, 0%, 80%);
 
 					&:hover {
-						color: hsl(0, 0%, 10%);
+						color: hsl(0, 0%, 95%);
 						text-decoration: underline;
 					}
 				}

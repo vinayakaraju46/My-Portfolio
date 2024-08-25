@@ -125,15 +125,15 @@
 								<li>
 									<span class="has-text-weight-semibold designation"> Project Engineer </span> (Nov 2023 - Current)
 								</li>
-								<li>
+								<li class="p-1">
 									I work as a full-stack engineer. My responsibilities included developing the frontend for the
 									<span>
 										<a href="https://kda-dev.c3ihub.org/login" target="_blank">Kanpur Development Authority</a>.</span
 									>
-									Additionally, I contributed to the backend of the
+									Additionally, I contributed to the server side of the
 									<span>
-										<a href="https://c3ihub.org/careers" target="_blank">C3ihub Careers</a> platform, focusing on user
-										management with diverse roles and privileges.
+										<a href="https://c3ihub.org/careers" target="_blank">C3ihub careers</a> and proposal management
+										platform, focusing on user management with diverse roles and privileges.
 									</span>
 								</li>
 							</ul>
@@ -148,7 +148,7 @@
 								<li>
 									<span class="has-text-weight-semibold designation"> Software Engineer </span> (April 2022 - Nov 2022)
 								</li>
-								<li>Worked as a frontend engineer on a resource management tool</li>
+								<li class="p-1">Worked as a frontend engineer on a resource management tool</li>
 							</ul>
 						</div>
 					</div>
@@ -162,7 +162,7 @@
 									<span class="has-text-weight-semibold designation"> Associate Software Engineer </span> (Jan 2020 -
 									April 2022)
 								</li>
-								<li>
+								<li class="p-1">
 									I worked on a project called UI Builder, where I developed a form creation system using drag-and-drop
 									input components and JSON rendering. This project is intended for use across the organization and by
 									customers to create web forms without requiring any coding knowledge.
@@ -187,7 +187,7 @@
 										<div class="tag is-info is-light" @click="previewProject('c3ihub')">Preview</div>
 									</span>
 								</li>
-								<li>
+								<li class="p-1">
 									I created a web app to manage project proposals. It uses Vue.js for the frontend, Node.js for the
 									backend, and MongoDB for the database. The app includes role-based access control. Applicants submit
 									their applications by filling out a form and uploading PDF files. I created APIs to validate the form,
@@ -210,7 +210,7 @@
 										<div class="tag is-info is-light" @click="previewProject('c3iCareers')">Preview</div>
 									</span>
 								</li>
-								<li>
+								<li class="p-1">
 									I built a web app for job hiring management. It uses Vue.js for the frontend, Node.js for the backend,
 									and MongoDB for the database. The app includes role-based access control.
 								</li>
@@ -227,11 +227,13 @@
 									<span class="has-text-weight-semibold project">
 										ROS Labs |
 										<div class="tag is-info is-light" @click="previewProject('ros')">Preview</div>
+										| 
+										<a href="https://roslabs-dev.web.app/" target="_blank">Link</a>
 									</span>
 								</li>
-								<li>
+								<li class="p-1">
 									I'm working on a cloud-based solution to practice ROS directly in a web browser. The frontend uses
-									Vue.js, while the backend is built with Node.js, and the database is MongoDB.
+									Vue.js, while the server is built with Node.js, and MongoDB as database.
 								</li>
 							</ul>
 						</div>
@@ -248,7 +250,7 @@
 										<a href="https://github.com/ClyckIOT/clyckIOT" target="_blank">Link</a>
 									</span>
 								</li>
-								<li>
+								<li class="p-1">
 									A web application that is capable of controlling a microcontroller through an API call. The frontend
 									of this application is built using VueJs, backend with NodeJs and the database with mongoDB. APIs are
 									protected using google firebase
@@ -266,7 +268,7 @@
 									<span class="has-text-weight-semibold project"> Autonomous rc car </span> |
 									<a href="https://arxiv.org/abs/2212.07155" target="_blank">Link</a>
 								</li>
-								<li>
+								<li class="p-1">
 									I implemented navigation for a scaled car using LIDAR as the sensor, with the Nvidia Jetson Nano
 									serving as the onboard computer. This project gave me valuable experience in ROS (Robot Operating
 									System), as well as motion and path planning.
@@ -282,9 +284,9 @@
 							<ul>
 								<li>
 									<span class="has-text-weight-semibold project"> EYRC-2018 </span> |
-									<a href="https://clyckiotbuild.s3.ap-south-1.amazonaws.com/ERTS-2018.pdf" target="_blank">Link</a>
+									<a href="https://documents-2024.s3.ap-south-1.amazonaws.com/ERTS-2018.pdf" target="_blank">Link</a>
 								</li>
-								<li>
+								<li class="p-1">
 									A national level robotics competition conducted by IIT Bombay. The task was to build an autonomous
 									drone that can navigate through the given waypoints. I learnt the concepts of control systems like PID
 									controllers and mechanics of quadcopter
@@ -311,7 +313,7 @@
 										>
 									</span>
 								</li>
-								<li>
+								<li class="p-1">
 									Self‐driving cars have been a popular area of research for a few decades now. However, the prevalent
 									methods have proven inflexible and hard to scale in more complex environments. For example, in
 									developing countries, the roads are more chaotic and unstructured as compared to developed countries.
@@ -335,7 +337,7 @@
 										<a href="https://arxiv.org/abs/2212.07155" target="_blank">Link</a>
 									</span>
 								</li>
-								<li>
+								<li class="p-1">
 									In this paper, a complete framework for Autonomous Self Driving is implemented. LIDAR, Camera and IMU
 									sensors are used together. The entire data communication is managed using Robot Operating System which
 									provides a robust platform for implementation of Robotics Projects. Jetson Nano is used to provide
@@ -530,7 +532,7 @@ export default {
 				{ src: require("../../public/Images/navigationStack.jpg"), alt: "Gallery Image 3" },
 				{ src: require("../../public/Images/cocon.jpg"), alt: "Gallery Image 4" },
 				{ src: require("../../public/Images/telangana.jpg"), alt: "Gallery Image 4" },
-				{ src: require("../../public/Images/1.jpeg"), alt: "Gallery Image 4" },
+				// { src: require("../../public/Images/1.jpeg"), alt: "Gallery Image 4" },
 				{ src: require("../../public/Images/2.jpeg"), alt: "Gallery Image 4" },
 				{ src: require("../../public/Images/3.jpeg"), alt: "Gallery Image 4" },
 				{ src: require("../../public/Images/4.jpeg"), alt: "Gallery Image 4" },
@@ -538,7 +540,7 @@ export default {
 				{ src: require("../../public/Images/6.jpeg"), alt: "Gallery Image 4" },
 				{ src: require("../../public/Images/7.jpeg"), alt: "Gallery Image 4" },
 				{ src: require("../../public/Images/8.jpeg"), alt: "Gallery Image 4" },
-				{ src: require("../../public/Images/9.jpeg"), alt: "Gallery Image 4" },
+				{ src: require("../../public/Images/9.jpeg"), alt: "Gallery Image 4" }
 			]
 		}
 	},
@@ -586,10 +588,12 @@ export default {
 					&.name {
 						font-size: calc($gap * 12);
 						font-weight: bold;
+						color: hsl(0, 0%, 80%);
 					}
 					&.quotation {
 						font-size: 1.5rem;
 						font-style: italic;
+						color: hsl(0, 0%, 80%);
 					}
 
 					&.social-media {
@@ -614,9 +618,9 @@ export default {
 							font-weight: bold;
 							a {
 								text-decoration: none;
-								color: hsl(0, 0%, 30%);
+								color: hsl(0, 0%, 80%);
 								&:hover {
-									color: hsl(0, 0%, 35%);
+									color: hsl(0, 0%, 95%);
 									text-decoration: underline;
 								}
 							}
@@ -636,7 +640,7 @@ export default {
 			.content-title {
 				font-size: 1.5rem;
 				font-weight: bold;
-				color: hsl(0, 0%, 20%);
+				color: hsl(0, 0%, 80%);
 				text-decoration: underline;
 			}
 			.content-body {
@@ -645,11 +649,13 @@ export default {
 				.info-title {
 					font-weight: bold;
 					font-size: 1.3rem;
+					color: hsl(0, 0%, 80%);
+
 					a {
 						text-decoration: none;
-						color: hsl(0, 0%, 30%);
+						color: hsl(0, 0%, 80%);
 						&:hover {
-							color: hsl(0, 0%, 35%);
+							color: hsl(0, 0%, 95%);
 							text-decoration: underline;
 						}
 					}
@@ -657,11 +663,13 @@ export default {
 				.info-body {
 					padding-left: calc($gap);
 
+					color: hsl(0, 0%, 80%);
+
 					.designation {
-						color: hsl(0, 0%, 50%);
+						color: hsl(0, 0%, 80%);
 					}
 					.project {
-						color: hsl(0, 0%, 30%);
+						color: hsl(0, 0%, 80%);
 					}
 				}
 			}
