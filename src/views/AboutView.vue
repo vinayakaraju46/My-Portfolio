@@ -127,7 +127,7 @@
 							<div class="info-body">
 								<ul>
 									<li>
-										<span class="has-text-weight-semibold designation"> Project Engineer </span> (Nov 2023 - Aug 2024)
+										<span class="has-text-weight-semibold designation"> Project Engineer </span> (Nov 2022 - Aug 2024)
 									</li>
 									<!-- <li>
 										I worked as a full-stack engineer. My responsibilities included developing the frontend for the
