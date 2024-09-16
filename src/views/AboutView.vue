@@ -36,7 +36,7 @@
 						<div class="media-item">
 							<div class="media-icon">
 								<!-- Github -->
-								<img src="../../public/Images/githubLogo.png" alt="github" />
+								<img src="../../public/Images/github.png" alt="github" />
 							</div>
 							<div class="media-name">
 								<a href="https://github.com/vinayakaraju46" target="_blank">Github</a>
@@ -115,67 +115,83 @@
 			</div>
 			<div class="content-item">
 				<div class="content-title">Work Experience</div>
-				<div class="content-body">
-					<div class="content-item">
-						<div class="info-title">
-							<a href="https://c3ihub.org/" target="_blank"> C3iHub | Indian Institute Of Technology, Kanpur</a>
+				<div class="content-body work-experience">
+					<div class="content-item work-experience">
+						<div class="work-logo">
+							<img src="../../public/Images/c3ihub-logo.svg" alt="c3i logo" />
 						</div>
-						<div class="info-body">
-							<ul>
-								<li>
-									<span class="has-text-weight-semibold designation"> Project Engineer </span> (Nov 2023 - Current)
-								</li>
-								<li class="p-1">
-									I work as a full-stack engineer. My responsibilities included developing the frontend for the
-									<span>
-										<a href="https://kda-dev.c3ihub.org/login" target="_blank">Kanpur Development Authority</a>.</span
-									>
-									Additionally, I contributed to the server side of the
-									<span>
-										<a href="https://c3ihub.org/careers" target="_blank">C3ihub careers</a> and proposal management
-										platform, focusing on user management with diverse roles and privileges.
-									</span>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="content-item">
-						<div class="info-title">
-							<a href="https://trigent.com/" target="_blank"> Trigent Software Solutions</a>
-						</div>
-						<div class="info-body">
-							<ul>
-								<li>
-									<span class="has-text-weight-semibold designation"> Software Engineer </span> (April 2022 - Nov 2022)
-								</li>
-								<li class="p-1">Worked as a frontend engineer on a resource management tool</li>
-							</ul>
+						<div class="work-wrapper">
+							<div class="info-title">
+								<a href="https://c3ihub.org/" target="_blank"> C3iHub | Indian Institute Of Technology, Kanpur</a>
+							</div>
+							<div class="info-body">
+								<ul>
+									<li>
+										<span class="has-text-weight-semibold designation"> Project Engineer </span> (Nov 2023 - Aug 2024)
+									</li>
+									<!-- <li>
+										I worked as a full-stack engineer. My responsibilities included developing the frontend for the
+										<span>
+											<a href="https://kda-dev.c3ihub.org/login" target="_blank">Kanpur Development Authority</a>.</span
+										>
+										Additionally, I contributed to the server side of the
+										<span>
+											<a href="https://c3ihub.org/careers" target="_blank">C3ihub careers</a> and proposal management
+											platform, focusing on user management with diverse roles and privileges.
+										</span>
+									</li> -->
+								</ul>
+							</div>
 						</div>
 					</div>
-					<div class="content-item">
-						<div class="info-title">
-							<a href="https://www.finastra.com/" target="_blank"> Finastra</a>
+					<div class="content-item work-experience">
+						<div class="work-logo">
+							<img src="../../public/Images/trigent-logo.svg" alt="trigent logo" />
 						</div>
-						<div class="info-body">
-							<ul>
-								<li>
-									<span class="has-text-weight-semibold designation"> Associate Software Engineer </span> (Jan 2020 -
-									April 2022)
-								</li>
-								<li class="p-1">
-									I worked on a project called UI Builder, where I developed a form creation system using drag-and-drop
-									input components and JSON rendering. This project is intended for use across the organization and by
-									customers to create web forms without requiring any coding knowledge.
-								</li>
-							</ul>
+						<div class="work-wrapper">
+							<div class="info-title">
+								<a href="https://trigent.com/" target="_blank"> Trigent Software Solutions</a>
+							</div>
+							<div class="info-body">
+								<ul>
+									<li>
+										<span class="has-text-weight-semibold designation"> Software Engineer </span> (April 2022 - Nov
+										2022)
+									</li>
+									<!-- <li>Worked as a frontend engineer on a resource management tool</li> -->
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="content-item work-experience">
+						<div class="work-logo">
+							<img src="../../public/Images/finastra_logo.jpeg" alt="finastra logo" />
+						</div>
+						<div class="work-wrapper">
+							<div class="info-title">
+								<a href="https://www.finastra.com/" target="_blank"> Finastra</a>
+							</div>
+							<div class="info-body">
+								<ul>
+									<li>
+										<span class="has-text-weight-semibold designation"> Associate Software Engineer </span> (Jan 2020 -
+										April 2022)
+									</li>
+									<!-- <li class="p-1">
+										I worked on a project called UI Builder, where I developed a form creation system using
+										drag-and-drop input components and JSON rendering. This project is intended for use across the
+										organization and by customers to create web forms without requiring any coding knowledge.
+									</li> -->
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="content-item">
 				<div class="content-title">Projects</div>
-				<div class="content-body">
-					<div class="content-item">
+				<div class="content-body projects">
+					<div class="content-item projects">
 						<!-- <div class="info-title">
 							<a href="https://www.finastra.com/" target="_blank"> Finastra</a>
 						</div> -->
@@ -187,7 +203,7 @@
 										<div class="tag is-info is-light" @click="previewProject('c3ihub')">Preview</div>
 									</span>
 								</li>
-								<li class="p-1">
+								<li>
 									I created a web app to manage project proposals. It uses Vue.js for the frontend, Node.js for the
 									backend, and MongoDB for the database. The app includes role-based access control. Applicants submit
 									their applications by filling out a form and uploading PDF files. I created APIs to validate the form,
@@ -198,7 +214,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="content-item">
+					<div class="content-item projects">
 						<!-- <div class="info-title">
 							<a href="https://www.finastra.com/" target="_blank"> Finastra</a>
 						</div> -->
@@ -210,14 +226,14 @@
 										<div class="tag is-info is-light" @click="previewProject('c3iCareers')">Preview</div>
 									</span>
 								</li>
-								<li class="p-1">
+								<li>
 									I built a web app for job hiring management. It uses Vue.js for the frontend, Node.js for the backend,
 									and MongoDB for the database. The app includes role-based access control.
 								</li>
 							</ul>
 						</div>
 					</div>
-					<div class="content-item">
+					<div class="content-item projects">
 						<!-- <div class="info-title">
 							<a href="https://www.finastra.com/" target="_blank"> Finastra</a>
 						</div> -->
@@ -227,18 +243,18 @@
 									<span class="has-text-weight-semibold project">
 										ROS Labs |
 										<div class="tag is-info is-light" @click="previewProject('ros')">Preview</div>
-										| 
+										|
 										<a href="https://roslabs-dev.web.app/" target="_blank">Link</a>
 									</span>
 								</li>
-								<li class="p-1">
+								<li>
 									I'm working on a cloud-based solution to practice ROS directly in a web browser. The frontend uses
 									Vue.js, while the server is built with Node.js, and MongoDB as database.
 								</li>
 							</ul>
 						</div>
 					</div>
-					<div class="content-item">
+					<div class="content-item projects">
 						<!-- <div class="info-title">
 							<a href="https://www.finastra.com/" target="_blank"> Finastra</a>
 						</div> -->
@@ -250,7 +266,7 @@
 										<a href="https://github.com/ClyckIOT/clyckIOT" target="_blank">Link</a>
 									</span>
 								</li>
-								<li class="p-1">
+								<li>
 									A web application that is capable of controlling a microcontroller through an API call. The frontend
 									of this application is built using VueJs, backend with NodeJs and the database with mongoDB. APIs are
 									protected using google firebase
@@ -258,7 +274,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="content-item">
+					<div class="content-item projects">
 						<!-- <div class="info-title">
 							<a href="https://www.finastra.com/" target="_blank"> Finastra</a>
 						</div> -->
@@ -268,7 +284,7 @@
 									<span class="has-text-weight-semibold project"> Autonomous rc car </span> |
 									<a href="https://arxiv.org/abs/2212.07155" target="_blank">Link</a>
 								</li>
-								<li class="p-1">
+								<li>
 									I implemented navigation for a scaled car using LIDAR as the sensor, with the Nvidia Jetson Nano
 									serving as the onboard computer. This project gave me valuable experience in ROS (Robot Operating
 									System), as well as motion and path planning.
@@ -276,7 +292,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="content-item">
+					<div class="content-item projects">
 						<!-- <div class="info-title">
 							<a href="https://www.finastra.com/" target="_blank"> Finastra</a>
 						</div> -->
@@ -286,7 +302,7 @@
 									<span class="has-text-weight-semibold project"> EYRC-2018 </span> |
 									<a href="https://documents-2024.s3.ap-south-1.amazonaws.com/ERTS-2018.pdf" target="_blank">Link</a>
 								</li>
-								<li class="p-1">
+								<li>
 									A national level robotics competition conducted by IIT Bombay. The task was to build an autonomous
 									drone that can navigate through the given waypoints. I learnt the concepts of control systems like PID
 									controllers and mechanics of quadcopter
@@ -298,8 +314,8 @@
 			</div>
 			<div class="content-item">
 				<div class="content-title">Publications</div>
-				<div class="content-body">
-					<div class="content-item">
+				<div class="content-body publications">
+					<div class="content-item publications">
 						<!-- <div class="info-title">
 							<a href="https://www.finastra.com/" target="_blank"> Finastra</a>
 						</div> -->
@@ -325,7 +341,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="content-item">
+					<div class="content-item publications">
 						<!-- <div class="info-title">
 							<a href="https://www.finastra.com/" target="_blank"> Finastra</a>
 						</div> -->
@@ -637,15 +653,92 @@ export default {
 	}
 	.page-footer {
 		.content-item {
+			// margin-bottom: 2rem;
 			.content-title {
 				font-size: 1.5rem;
 				font-weight: bold;
 				color: hsl(0, 0%, 80%);
 				text-decoration: underline;
+				margin-bottom: 1rem;
+				margin-top: 2rem;
 			}
 			.content-body {
 				font-size: 1.2rem;
 				padding: $gap;
+
+				&.projects {
+					display: flex;
+					flex-direction: column;
+					gap: $gap;
+					padding: 0;
+				}
+
+				&.publications {
+					display: flex;
+					flex-direction: column;
+					gap: $gap;
+					padding: 0;
+				}
+
+				&.work-experience {
+					padding: 0;
+					display: flex;
+					flex-direction: column;
+					gap: $gap;
+					height: 400px;
+
+					.work-logo {
+						display: flex;
+						justify-content: center;
+						flex-direction: column;
+						// width: 150px;
+						// width: 400px;
+
+						img {
+							width: 150px;
+						}
+					}
+
+					.work-wrapper {
+						display: flex;
+						flex-direction: column;
+						width: 100%;
+						justify-content: center;
+					}
+				}
+
+				.content-item {
+					// background: hsl(0, 0%, 25%);
+
+					&.projects {
+						display: flex;
+						flex-direction: column;
+						padding: $gap;
+						gap: $gap;
+						background: hsl(0, 0%, 25%);
+						border-radius: $gap;
+					}
+
+					&.publications {
+						display: flex;
+						flex-direction: column;
+						padding: $gap;
+						gap: $gap;
+						background: hsl(0, 0%, 25%);
+						border-radius: $gap;
+					}
+
+					&.work-experience {
+						display: flex;
+						flex-direction: row;
+						padding: $gap;
+						gap: calc($gap * 4);
+						background: hsl(0, 0%, 25%);
+
+						border-radius: $gap;
+						height: 300px;
+					}
+				}
 				.info-title {
 					font-weight: bold;
 					font-size: 1.3rem;
@@ -661,7 +754,7 @@ export default {
 					}
 				}
 				.info-body {
-					padding-left: calc($gap);
+					// padding-left: calc($gap);
 
 					color: hsl(0, 0%, 80%);
 
