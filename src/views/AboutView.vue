@@ -62,9 +62,20 @@
 					<div class="content-body">
 						<div class="content-item">
 							<div class="info-title">
+								<a href="https://www.tu-dortmund.de/" target="_blank"> Technische universität dortmund</a>
+							</div>
+							<div class="info-body ml-2">
+								<ul>
+									<li>MSc. in Automation and Robotics</li>
+									<li>2024 - Current</li>
+								</ul>
+							</div>
+						</div>
+						<div class="content-item">
+							<div class="info-title">
 								<a href="https://www.sjpuc.in/" target="_blank"> St. Josephs' Pre-University College</a>
 							</div>
-							<div class="info-body">
+							<div class="info-body ml-2">
 								<ul>
 									<li>Physics, Chemistry, Mathematics and Electronics</li>
 									<li>2014 - 2016</li>
@@ -75,7 +86,7 @@
 							<div class="info-title">
 								<a href="https://www.bmsce.ac.in/" target="_blank"> B.M.S College of Engineering</a>
 							</div>
-							<div class="info-body">
+							<div class="info-body ml-2">
 								<ul>
 									<li>Bachelor of Telecommunication Engineering</li>
 									<li>2016 - 2020</li>
@@ -715,7 +726,7 @@ export default {
 						flex-direction: column;
 						padding: $gap;
 						gap: $gap;
-						background: hsl(0, 0%, 25%);
+						background: hsl(0, 0%, 15%);
 						border-radius: $gap;
 					}
 
@@ -724,7 +735,7 @@ export default {
 						flex-direction: column;
 						padding: $gap;
 						gap: $gap;
-						background: hsl(0, 0%, 25%);
+						background: hsl(0, 0%, 15%);
 						border-radius: $gap;
 					}
 
@@ -733,7 +744,7 @@ export default {
 						flex-direction: row;
 						padding: $gap;
 						gap: calc($gap * 4);
-						background: hsl(0, 0%, 25%);
+						background: hsl(0, 0%, 15%);
 
 						border-radius: $gap;
 						height: 300px;
