@@ -66,7 +66,7 @@
 							</div>
 							<div class="content-item">
 								<div class="info-title">
-									<a href="https://www.tu-dortmund.de/" target="_blank"> Technische universität dortmund</a>
+									<a href="https://www.tu-dortmund.de/" target="_blank"> Technische Universität Dortmund</a>
 								</div>
 								<div class="info-body ml-2">
 									<ul>
@@ -693,16 +693,54 @@ export default {
 			.content-body {
 				font-size: 1.2rem;
 				padding: $gap;
+				display: flex;
+				flex-direction: column;
+				gap: 0.5rem;
 
 				.edu {
 					display: flex;
 					flex-direction: row;
 					gap: $gap;
 
-					img {
-						width: 100px;
-						height: 100px;
+					.content-logo {
+						width: 150px;
+						height: 150px;
+						display: flex
+;
+    justify-content: center;
+    align-items: center;
+						img {
+							width: 90%;
+							height: 90%;
+						}
 					}
+
+					.content-item {
+						display: flex;
+						flex-direction: column;
+						justify-content: center;
+						.info-title {
+							font-weight: bold;
+							font-size: 1.3rem;
+							color: hsl(0, 0%, 80%);
+							a {
+								text-decoration: none;
+								color: hsl(0, 0%, 80%);
+								&:hover {
+									color: hsl(0, 0%, 95%);
+									text-decoration: underline;
+								}
+							}
+						}
+						.info-body {
+							color: hsl(0, 0%, 80%);
+						}
+					}
+
+					// img {
+					// 	width: 100px;
+					// 	height: 100px;
+					// }
 				}
 
 				&.projects {
