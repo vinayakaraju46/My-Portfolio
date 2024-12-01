@@ -705,10 +705,9 @@ export default {
 					.content-logo {
 						width: 150px;
 						height: 150px;
-						display: flex
-;
-    justify-content: center;
-    align-items: center;
+						display: flex;
+						justify-content: center;
+						align-items: center;
 						img {
 							width: 90%;
 							height: 90%;
