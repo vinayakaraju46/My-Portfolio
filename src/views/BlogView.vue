@@ -20,6 +20,12 @@ export default {
 		return {
 			posts: [
 				{
+					title: "ROS Docker Environment on macOS (Apple Silicon)",
+					description:
+						"This project sets up a Docker-based virtual environment to run ROS with support for Gazebo and V-REP/Virtual Robotics Experimentation Platform. The setup is tailored for macOS devices with Apple Silicon chips, using a Linux/amd64 base image to ensure compatibility.",
+					link: "https://github.com/vinayakaraju46/ROS-for-Apple-Silicon"
+				},
+				{
 					title: "Accessing UI of Raspberry Pi on a browser",
 					description: "A simple tweak to your Raspberry pi that makes your development simple",
 					link: "https://github.com/rpi-noVNC/rpi-dev"
@@ -76,7 +82,7 @@ export default {
 	.title {
 		font-size: 2rem;
 		font-weight: 700;
-		color:hsl(0, 0%, 90%)
+		color: hsl(0, 0%, 90%);
 	}
 	.posts-wrapper {
 		display: flex;

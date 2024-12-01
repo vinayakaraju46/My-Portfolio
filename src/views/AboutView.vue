@@ -60,37 +60,54 @@
 				<div class="cols">
 					<div class="content-title">Education</div>
 					<div class="content-body">
-						<div class="content-item">
-							<div class="info-title">
-								<a href="https://www.tu-dortmund.de/" target="_blank"> Technische universität dortmund</a>
+						<div class="edu">
+							<div class="content-logo">
+								<img src="../../public/Images/TUd.png" alt="td logo" />
 							</div>
-							<div class="info-body ml-2">
-								<ul>
-									<li>MSc. in Automation and Robotics</li>
-									<li>2024 - Current</li>
-								</ul>
-							</div>
-						</div>
-						<div class="content-item">
-							<div class="info-title">
-								<a href="https://www.sjpuc.in/" target="_blank"> St. Josephs' Pre-University College</a>
-							</div>
-							<div class="info-body ml-2">
-								<ul>
-									<li>Physics, Chemistry, Mathematics and Electronics</li>
-									<li>2014 - 2016</li>
-								</ul>
+							<div class="content-item">
+								<div class="info-title">
+									<a href="https://www.tu-dortmund.de/" target="_blank"> Technische universität dortmund</a>
+								</div>
+								<div class="info-body ml-2">
+									<ul>
+										<li>MSc. in Automation and Robotics</li>
+										<li>2024 - Current</li>
+									</ul>
+								</div>
 							</div>
 						</div>
-						<div class="content-item">
-							<div class="info-title">
-								<a href="https://www.bmsce.ac.in/" target="_blank"> B.M.S College of Engineering</a>
+
+						<div class="edu">
+							<div class="content-logo">
+								<img src="../../public/Images/bmsce.jpeg" alt="td logo" />
 							</div>
-							<div class="info-body ml-2">
-								<ul>
-									<li>Bachelor of Telecommunication Engineering</li>
-									<li>2016 - 2020</li>
-								</ul>
+							<div class="content-item">
+								<div class="info-title">
+									<a href="https://www.bmsce.ac.in/" target="_blank"> B.M.S College of Engineering</a>
+								</div>
+								<div class="info-body ml-2">
+									<ul>
+										<li>Bachelor of Telecommunication Engineering</li>
+										<li>2016 - 2020</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="edu">
+							<div class="content-logo">
+								<img src="../../public/Images/sjpuc.png" alt="td logo" />
+							</div>
+							<div class="content-item">
+								<div class="info-title">
+									<a href="https://www.sjpuc.in/" target="_blank"> St. Josephs' Pre-University College</a>
+								</div>
+								<div class="info-body ml-2">
+									<ul>
+										<li>Physics, Chemistry, Mathematics and Electronics</li>
+										<li>2014 - 2016</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -676,6 +693,17 @@ export default {
 			.content-body {
 				font-size: 1.2rem;
 				padding: $gap;
+
+				.edu {
+					display: flex;
+					flex-direction: row;
+					gap: $gap;
+
+					img {
+						width: 100px;
+						height: 100px;
+					}
+				}
 
 				&.projects {
 					display: flex;
