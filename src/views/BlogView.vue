@@ -53,7 +53,7 @@ export default {
 					tags: [
 						{
 							type: "REDDIT",
-							link: "https://www.reddit.com/r/robotics/comments/1h2vc23/run_ros_on_apple_silicon_practice_and_simulate_on/"
+							link: "https://www.reddit.com/r/RASPBERRY_PI_PROJECTS/comments/11j5brx/access_raspberrypi_ui_from_browser_using_novnc/"
 						}
 					]
 				},
