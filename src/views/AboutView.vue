@@ -11,7 +11,7 @@
 				</div>
 				<div class="contents">
 					<div class="content-item name">Vinayaka Raju S</div>
-					<div class="content-item quotation">"The worst thing about prison was the Dementors.”</div>
+					<div class="content-item quotation">"In the end, the greatest snowball isn't a snowball at all. It's fear. Merry Christmas”</div>
 					<div class="content-item social-media">
 						<div class="media-item">
 							<div class="media-icon">
@@ -696,22 +696,23 @@ export default {
 				display: flex;
 				flex-direction: column;
 				gap: 0.5rem;
+				border-radius: calc($gap*2);
 
 				.edu {
 					display: flex;
 					flex-direction: row;
+					align-items: center;
 					gap: $gap;
+					background: hsl(0, 0%, 15%);
 
 					.content-logo {
-						width: 150px;
-						height: 150px;
-						display: flex;
-						justify-content: center;
-						align-items: center;
-						img {
-							width: 90%;
-							height: 90%;
-						}
+						padding: 0.5rem;
+						max-width: 125px;
+						max-height: 125px;
+
+						// display: flex;
+						// justify-content: center;
+						// align-items: center;
 					}
 
 					.content-item {

@@ -4,8 +4,19 @@
 		<div class="posts-wrapper">
 			<div class="post" v-for="(project, index) in posts" :key="index">
 				<div class="post-title">
-					<a :href="project.link"> {{ project.title }} </a>
+					<a :href="project.link" target="_blank"> {{ project.title }} </a>
+					<!-- <div class="reviews" v-if="project?.is_git_repo">
+						{{ getRepoInfo(project) ? project?.stargazers_count : "" }}
+					</div> -->
+					<div class="post-tags">
+						<span v-for="tag in project.tags" :key="tag" class="post-tag">
+							<a :href="tag.link" target="_blank" v-if="tag.type == 'REDDIT'">
+								<img src="https://img.icons8.com/color/48/000000/reddit.png" height="30px" width="30px" /> Reddit
+							</a>
+						</span>
+					</div>
 				</div>
+
 				<div class="post-description">
 					{{ project.description }}
 				</div>
@@ -23,12 +34,28 @@ export default {
 					title: "ROS Docker Environment on macOS (Apple Silicon)",
 					description:
 						"This project sets up a Docker-based virtual environment to run ROS with support for Gazebo and V-REP/Virtual Robotics Experimentation Platform. The setup is tailored for macOS devices with Apple Silicon chips, using a Linux/amd64 base image to ensure compatibility.",
-					link: "https://github.com/vinayakaraju46/ROS-for-Apple-Silicon"
+					link: "https://github.com/vinayakaraju46/ROS-for-Apple-Silicon",
+					is_git_repo: true,
+					repo_link: "https://api.github.com/repos/vinayakaraju46/ROS-for-Apple-Silicon",
+					tags: [
+						{
+							type: "REDDIT",
+							link: "https://www.reddit.com/r/robotics/comments/1h2vc23/run_ros_on_apple_silicon_practice_and_simulate_on/"
+						}
+					]
 				},
 				{
 					title: "Accessing UI of Raspberry Pi on a browser",
 					description: "A simple tweak to your Raspberry pi that makes your development simple",
-					link: "https://github.com/rpi-noVNC/rpi-dev"
+					link: "https://github.com/vinayakaraju46/raspberrypinoVNC",
+					is_git_repo: true,
+					repo_link: "https://api.github.com/repos/vinayakaraju46/raspberrypinoVNC",
+					tags: [
+						{
+							type: "REDDIT",
+							link: "https://www.reddit.com/r/robotics/comments/1h2vc23/run_ros_on_apple_silicon_practice_and_simulate_on/"
+						}
+					]
 				},
 				{
 					title: "DIY Home Automation",
@@ -66,6 +93,28 @@ export default {
 				}
 			]
 		}
+	},
+	methods: {
+		getRepoInfo(project) {
+			const url = project?.repo_link
+
+			// axios.get(url).then((response) => {
+			// 	console.log(response.data);
+			// })
+			fetch(url)
+				.then(response => response.json())
+				.then(data => {
+					console.log(data.stargazers_count)
+					project.stargazers_count = data.stargazers_count
+					return data.stargazers_count
+				})
+				.catch(error => {
+					console.error("Error:", error)
+				})
+		}
+	},
+	mounted() {
+		// this.getRepoInfo()
 	}
 }
 </script>
@@ -100,11 +149,33 @@ export default {
 			.post-title {
 				font-size: 1.5rem;
 				font-weight: 700;
+				display: flex;
+				justify-content: space-between;
 				a {
 					text-decoration: none;
 					color: hsl(229, 53%, 53%);
 					&:hover {
 						text-decoration: underline;
+					}
+				}
+
+				.post-tags {
+					.post-tag {
+						display: flex;
+						align-items: center;
+						gap: calc($gap * 0.5);
+						color: hsl(16.24deg 100% 50%);
+						a {
+							text-decoration: none;
+							color: hsl(16.24deg 100% 50%);
+							display: flex;
+							justify-content: center;
+							align-items: center;
+							gap: 0.5rem;
+							&:hover {
+								text-decoration: underline;
+							}
+						}
 					}
 				}
 			}
