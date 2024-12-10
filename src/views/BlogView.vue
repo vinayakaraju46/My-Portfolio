@@ -11,7 +11,7 @@
 					<div class="post-tags">
 						<span v-for="tag in project.tags" :key="tag" class="post-tag">
 							<a :href="tag.link" target="_blank" v-if="tag.type == 'REDDIT'">
-								<img src="https://img.icons8.com/color/48/000000/reddit.png" height="30px" width="30px" /> Reddit
+								<img src="https://img.icons8.com/color/48/000000/reddit.png" height="30px" width="30px" />
 							</a>
 						</span>
 					</div>
