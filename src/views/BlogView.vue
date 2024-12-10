@@ -187,4 +187,10 @@ export default {
 		}
 	}
 }
+
+@media (max-width: 768px) {
+	.page-wrapper {
+		padding: calc($gap * 0);
+	}
+}
 </style>
