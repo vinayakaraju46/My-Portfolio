@@ -13,6 +13,9 @@
 							<a :href="tag.link" target="_blank" v-if="tag.type == 'REDDIT'">
 								<img src="https://img.icons8.com/color/48/000000/reddit.png" height="30px" width="30px" />
 							</a>
+							<a :href="tag.link" target="_blank" v-if="tag.type == 'MEDIUM'">
+								<img src="../../public/Images/medium_logo.png" height="30px" width="30px" />
+							</a>
 						</span>
 					</div>
 				</div>
@@ -43,6 +46,19 @@ export default {
 							link: "https://www.reddit.com/r/robotics/comments/1h2vc23/run_ros_on_apple_silicon_practice_and_simulate_on/"
 						}
 					]
+				},
+				{
+					title: "ROS TurtleSim - Medium Article",
+					description:
+						"ROS Turtlesim is a simple simulator that teaches the basics of ROS. This blog post explains proportional controller implementation for the turtlesim bot",
+					link: "https://medium.com/@vinayakaraju46/ros-turtlesim-a3796626352f",
+					tags: [
+						{
+							type: "MEDIUM",
+							link: "https://www.reddit.com/r/ROS/comments/1h2vc23/run_ros_on_apple_silicon_practice_and_simulate_on/"
+						}
+					],
+					is_git_repo: false,
 				},
 				{
 					title: "Accessing UI of Raspberry Pi on a browser",
