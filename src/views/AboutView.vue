@@ -11,7 +11,7 @@
 				</div>
 				<div class="contents">
 					<div class="content-item name">Vinayaka Raju S</div>
-					<div class="content-item quotation">"In the end, the greatest snowball isn't a snowball at all. It's fear. Merry Christmas”</div>
+					<!-- <div class="content-item quotation">"In the end, the greatest snowball isn't a snowball at all. It's fear. Merry Christmas”</div> -->
 					<div class="content-item social-media">
 						<div class="media-item">
 							<div class="media-icon">
