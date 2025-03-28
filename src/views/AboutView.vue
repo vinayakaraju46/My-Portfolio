@@ -7,7 +7,7 @@
 			<div class="body-wrapper">
 				<div class="profile-picture">
 					<!-- <img src="https://avatars.githubusercontent.com/u/1004701?v=4" alt="profile picture" /> -->
-					<img src="../../public/Images/VinProfile.jpeg" alt="profile picture" />
+					<img src="../../public/Images/VinProfile.jpg" alt="profile picture" />
 				</div>
 				<div class="contents">
 					<div class="content-item name">Vinayaka Raju S</div>
@@ -117,7 +117,7 @@
 					<div class="content-body">
 						<div class="content-item">
 							<div class="info-title">
-								<p>Frontend</p>
+								<p>Client side</p>
 							</div>
 							<div class="info-body">
 								<ul>
@@ -127,14 +127,14 @@
 						</div>
 						<div class="content-item">
 							<div class="info-title">
-								<p>Backend</p>
+								<p>Server side</p>
 							</div>
 							<div class="info-body">
 								<ul>
-									<li>NodeJs, Express, MongoDB, Python, C++</li>
-									<li>Experience in building RESTful APIs</li>
-									<li>Building Microservices that uses gRPC protocol</li>
-									<li>AWS S3 Bucket, AWS lambda function, AWS ec2 and Docker</li>
+									<li>1. NodeJs, Express, MongoDB, Python, C++</li>
+									<li>2. Experience in building RESTful APIs</li>
+									<li>3. Building Microservices that uses gRPC protocol</li>
+									<li>4. AWS S3 Bucket, AWS lambda function, AWS ec2 and Docker</li>
 								</ul>
 							</div>
 						</div>
@@ -227,17 +227,49 @@
 							<ul>
 								<li>
 									<span class="has-text-weight-semibold project">
-										Project Proposals management system |
-										<div class="tag is-info is-light" @click="previewProject('c3ihub')">Preview</div>
+										Blockchain-powered Transferable Development Rights (TDR) portal for the KDA |
+										<div class="tag is-info is-light">
+											<a href="https://kda-dev.c3ihub.org/login" target="_blank">Preview</a>
+										</div>
 									</span>
 								</li>
 								<li>
-									I created a web app to manage project proposals. It uses Vue.js for the frontend, Node.js for the
-									backend, and MongoDB for the database. The app includes role-based access control. Applicants submit
-									their applications by filling out a form and uploading PDF files. I created APIs to validate the form,
-									upload the PDFs to an AWS S3 bucket, and store the proposal information in MongoDB. Reviewers can log
-									in to view the list of applications assigned for review and provide their feedback. As an admin, the
-									application automatically assigns applications to reviewers and sends automated emails to applicants
+									Led the frontend design and development for a Blockchain-powered Transferable Development Rights (TDR)
+									portal for the Kanpur Development Authority, integrating Role-Based Access Control (RBAC). Crafted UI
+									components to improve user experience and interface functionality with Vue.js. Incorporated REST APIs
+									into the frontend to enable data exchange and functionality. Utilized Vuex Store (Vue.Js) to
+									efficiently manage application state for optimal performance
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="content-item projects">
+						<!-- <div class="info-title">
+							<a href="https://www.finastra.com/" target="_blank"> Finastra</a>
+						</div> -->
+						<div class="info-body">
+							<ul>
+								<li>
+									<span class="has-text-weight-semibold project">
+										C3ihub Wallet |
+										<div class="tag is-info is-light">
+											<a
+												href="https://play.google.com/store/apps/details?id=com.shrawank22.C3ihubWallet&hl=en"
+												target="_blank"
+												>Google Playstore</a
+											>
+										</div>
+										<div class="ml-2 tag is-info is-light">
+											<a href="https://apps.apple.com/ng/app/c3ihub-wallet/id6505136853" target="_blank">Appstore</a>
+										</div>
+									</span>
+								</li>
+								<li>
+									I developed a React Native application for students to securely download their degrees on iOS and
+									Android using Veramo. To efficiently manage application state, I utilized Redux Toolkit, ensuring
+									optimal performance and seamless data handling. The app also includes fingerprint-based authentication
+									for enhanced security, allowing users to access their credentials in a secure and user-friendly
+									manner.
 								</li>
 							</ul>
 						</div>
@@ -251,12 +283,17 @@
 								<li>
 									<span class="has-text-weight-semibold project">
 										Job Hiring platform |
-										<div class="tag is-info is-light" @click="previewProject('c3iCareers')">Preview</div>
+										<div class="tag is-info is-light">
+											<a href="https://c3ihub.org/careers" target="_blank">Preview</a>
+										</div>
 									</span>
 								</li>
 								<li>
-									I built a web app for job hiring management. It uses Vue.js for the frontend, Node.js for the backend,
-									and MongoDB for the database. The app includes role-based access control.
+									Implemented and developed a server for the Hiring Portal using Node.js and MongoDB, leveraging
+									Express.js for efficient HTTP request handling. Integrated AWS SDK for seamless cloud operations. The
+									platform uses OTP-based authentication for secure user access. Faced with the challenges of managing a
+									monolithic architecture, I migrated to a microservices architecture utilizing gRPC for interservice
+									communication, ensuring enhanced scalability, maintainability, and performance across services.
 								</li>
 							</ul>
 						</div>
@@ -269,15 +306,23 @@
 							<ul>
 								<li>
 									<span class="has-text-weight-semibold project">
-										ROS Labs |
+										Docker-based virtual environment for running ROS simulations |
 										<div class="tag is-info is-light" @click="previewProject('ros')">Preview</div>
 										|
 										<a href="https://roslabs-dev.web.app/" target="_blank">Link</a>
 									</span>
 								</li>
 								<li>
-									I'm working on a cloud-based solution to practice ROS directly in a web browser. The frontend uses
-									Vue.js, while the server is built with Node.js, and MongoDB as database.
+									During my first semester, I noticed a common issue: installing ROS was platform- and OS-dependent, and
+									many of my classmates, including myself, struggled with the installation process. To solve this, I
+									created a Dockerized container solution that streamlines the installation process, making it easier
+									and platform-independent.
+								</li>
+								<li>
+									I dedicated time to writing, testing, and optimizing this approach, ensuring seamless compatibility,
+									particularly for Apple Silicon. The environment is optimized using an AMD64-based Linux image,
+									ensuring smooth operation. Additionally, I enhanced the user experience by integrating noVNC for a
+									user-friendly interface and automating key commands with shell scripts for ease of use.
 								</li>
 							</ul>
 						</div>
@@ -617,10 +662,12 @@ export default {
 			gap: calc($gap * 3);
 			.profile-picture {
 				img {
-					min-width: 400px;
-					max-width: 400px;
-					min-height: 400px;
-					max-height: 400px;
+					min-width: 500px;
+					max-width: 500px;
+					min-height: 500px;
+					max-height: 500px;
+					border: 1px solid hsl(0, 0%, 15%);
+					border-radius: 1000rem;
 				}
 			}
 			.contents {
@@ -696,7 +743,7 @@ export default {
 				display: flex;
 				flex-direction: column;
 				gap: 0.5rem;
-				border-radius: calc($gap*2);
+				border-radius: calc($gap * 2);
 
 				.edu {
 					display: flex;
@@ -923,6 +970,8 @@ export default {
 						max-width: 300px;
 						min-height: 300px;
 						max-height: 300px;
+						border: 1px solid hsl(0, 0%, 15%);
+						border-radius: 1000rem;
 					}
 				}
 				.contents {
@@ -991,6 +1040,8 @@ export default {
 						max-width: 300px;
 						min-height: 300px;
 						max-height: 300px;
+						border: 1px solid hsl(0, 0%, 15%);
+						border-radius: 1000rem;
 					}
 				}
 				.contents {

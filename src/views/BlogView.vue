@@ -34,6 +34,15 @@ export default {
 		return {
 			posts: [
 				{
+					title: "ROS Trajectory Publisher for Robot Manipulators",
+					description:
+						"This project contains a ROS (Robot Operating System) node for controlling a robot manipulator by sending joint trajectory commands. The code provides two modes of operation for controlling the robot using either ROS publishers/subscribers or ActionLib clients. It supports trajectory planning to move the robot through a series of waypoints.",
+					link: "https://github.com/vinayakaraju46/UR10-motion-control",
+					is_git_repo: true,
+					repo_link: "https://github.com/vinayakaraju46/UR10-motion-control",
+					tags: []
+				},
+				{
 					title: "ROS Docker Environment on macOS (Apple Silicon)",
 					description:
 						"This project sets up a Docker-based virtual environment to run ROS with support for Gazebo and V-REP/Virtual Robotics Experimentation Platform. The setup is tailored for macOS devices with Apple Silicon chips, using a Linux/amd64 base image to ensure compatibility.",
@@ -58,7 +67,7 @@ export default {
 							link: "https://www.reddit.com/r/ROS/comments/1h2vc23/run_ros_on_apple_silicon_practice_and_simulate_on/"
 						}
 					],
-					is_git_repo: false,
+					is_git_repo: false
 				},
 				{
 					title: "Accessing UI of Raspberry Pi on a browser",
